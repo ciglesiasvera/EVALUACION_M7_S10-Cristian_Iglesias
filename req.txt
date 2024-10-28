@@ -1,0 +1,31 @@
+CUE: ENRUTAMIENTO
+
+DRILLING: GESTION DE PARÁMETROS EN VISTAS DJANGO
+
+Para resolver este ejercicio, anteriormente debe haber revisado la lectura y los 
+videos del CUE:
+Enrutamiento.
+
+EJERCICIO:
+
+Partiendo del ejercicio creado en el Rebound Exercise del CUE Anterior, debes 
+crear y asignar una ruta a una vista en el archivo de URL de la aplicación, y 
+pasarle los parámetros. Al pasarle el id del producto, obtenemos el detalle 
+del producto individual.
+
+La ruta es: http://localhost:8000/producto/id/
+
+Por ejemplo: http://localhost:8000/producto/19/
+
+
+
+                                              Información de Productos
+
+            -------------------  ----------  -----------------------------------  -----------------
+            | Nombre          |  | Precio |  |        Descripción              |  |Vencimiento    |
+            -------------------  ----------  -----------------------------------  -----------------
+            -------------------  ----------  -----------------------------------  -----------------
+            |Cepillo dental   |  |1000.00 |  |Cepillo para cepillar los dientes|  |Sept. 22, 2022 |
+            -------------------  ----------  -----------------------------------  -----------------
+
+<--Insertar Productos
